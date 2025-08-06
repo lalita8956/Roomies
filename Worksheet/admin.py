@@ -1,11 +1,11 @@
 from django.contrib import admin
-from .models import Work, Task
+from .models import Work, User
 
 admin.site.register(Work)
-admin.site.register(Task)
+admin.site.register(User)
 
 class WorkAdmin(admin.ModelAdmin):
     pass
 
-class TaskAdmin(admin.ModelAdmin):
+class UserAdmin(admin.ModelAdmin):
     pass
