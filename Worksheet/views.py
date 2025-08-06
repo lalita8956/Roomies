@@ -1,3 +1,8 @@
-from django.shortcuts import render
 
-# Create your views here.
+from .models import Work
+from django.views.generic import ListView
+
+class TodoListView(ListView):
+    model = Work
+    template_name = "app/index.html"
+    context_object_name= 'work'

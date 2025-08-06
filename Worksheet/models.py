@@ -1,7 +1,6 @@
 from django.db import models
 
 
-
 class Work(models.Model):
     Work_name = models.TextField()
     day = models.CharField(default=None, max_length=100)
