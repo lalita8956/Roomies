@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.cache
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Django
+*.log
+*.sqlite3
+media/
+static/ # if collected static files are not meant to be versioned
+local_settings.py # or any other file containing sensitive local configurations
+
+# VS Code
+.vscode/ # Contains VS Code specific settings and configurations
+.history/ # VS Code local history
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
