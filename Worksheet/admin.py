@@ -1,11 +1,7 @@
 from django.contrib import admin
-from .models import Work, User
+from .models import Work, User ,Day
 
 admin.site.register(Work)
 admin.site.register(User)
+admin.site.register(Day)
 
-class WorkAdmin(admin.ModelAdmin):
-    pass
-
-class UserAdmin(admin.ModelAdmin):
-    pass
